@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="#2098d4">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="86dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#375fad"
+        app:cardCornerRadius="80dp"
+        app:strokeWidth="1dp"
+        app:strokeColor="#ffffff"
+        android:layout_marginBottom="8dp"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Nombre usuario" />
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:text="micorre@gmail.com" />
+
+</LinearLayout>

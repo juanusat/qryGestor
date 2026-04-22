@@ -7,7 +7,22 @@
         <item
             android:id="@+id/nav_inicio"
             android:title="Inicio"
-            android:icon="@drawable/logo_quartzary"
+            android:icon="@drawable/home_24px"
+            />
+        <item
+            android:id="@+id/nav_proyectos"
+            android:title="Proyectos"
+            android:icon="@drawable/folder_code_24px"
+            />
+        <item
+            android:id="@+id/nav_tareas"
+            android:title="Tareas"
+            android:icon="@drawable/list_alt_check_24px"
+            />
+        <item
+            android:id="@+id/nav_clientes"
+            android:title="Clientes"
+            android:icon="@drawable/support_agent_24px"
             />
     </group>
 
