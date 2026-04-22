@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.QuartzaryGestor" parent="Base.Theme.QuartzaryGestor" />
+    <style name="Theme.QuartzaryGestor.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.QuartzaryGestor.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
 </resources>
